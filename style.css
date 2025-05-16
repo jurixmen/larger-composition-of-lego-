@@ -7,7 +7,6 @@
 }
 
 .menu-link {
-
   text-decoration: none;
   /* без риски */
   text-transform: uppercase;
@@ -110,16 +109,13 @@
 .rotate-scale-up {
   animation: rotate-scale-up 2s linear both;
 }
-
 @keyframes rotate-scale-up {
   0% {
     transform: scale(1) rotateZ(0);
   }
-
   50% {
     transform: scale(2) rotateZ(180deg);
   }
-
   100% {
     transform: scale(1) rotateZ(360deg);
   }
@@ -130,9 +126,7 @@
 }
 
 .skin {
-
   margin-top: -22px;
-
 }
 
 .second-skin {
@@ -149,32 +143,25 @@
 }
 
 .body {
-
   animation: color-change-5x 8s linear infinite alternate both;
-
 }
 
 @keyframes color-change-5x {
   0% {
     background: #19dcea;
   }
-
   20% {
     background: #b22cff;
   }
-
   40% {
     background: #ea2222;
   }
-
   60% {
     background: #f5be10;
   }
-
   80% {
     background: #3bd80d;
   }
-
   100% {
     background: rgb(0, 110, 255);
   }
