@@ -129,13 +129,6 @@
   margin-top: -22px;
 }
 
-.second-skin {
-  background-image: url(https://i.pinimg.com/736x/52/cb/b4/52cbb4b229061e1a69e8c902cf2b18e0.jpg);
-  padding: 20px;
-  margin-top: -22px;
-  margin-bottom: 0;
-}
-
 .incide-img {
   /* колір шривту */
   position: absolute;
@@ -143,6 +136,7 @@
 }
 
 .body {
+  /* задній фон */
   animation: color-change-5x 8s linear infinite alternate both;
 }
 
