@@ -179,11 +179,20 @@
  font-size: 20px;
 }
 
+.incide-img-two{
+  margin-top: -333px;
+  margin-left: -466px;
+  font-size: 33px;
+}
 
+.relative{
+  position: relative;
+}
 
-
-
-
+.incide-p{
+  margin-left: 200px;
+  font-size: 22px;
+}
 
 
 
