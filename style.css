@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 .menu {
   display: flex;
   gap: 55px;
@@ -114,13 +115,16 @@
 .rotate-scale-up {
   animation: rotate-scale-up 2s linear both;
 }
+
 @keyframes rotate-scale-up {
   0% {
     transform: scale(1) rotateZ(0);
   }
+
   50% {
     transform: scale(2) rotateZ(180deg);
   }
+
   100% {
     transform: scale(1) rotateZ(360deg);
   }
@@ -151,18 +155,23 @@
   0% {
     background: #19dcea;
   }
+
   20% {
     background: #b22cff;
   }
+
   40% {
     background: #ea2222;
   }
+
   60% {
     background: #f5be10;
   }
+
   80% {
     background: #3bd80d;
   }
+
   100% {
     background: rgb(0, 110, 255);
   }
@@ -174,283 +183,62 @@
   margin: 0 auto;
 }
 
-.footer-text{
- font-family: "Caveat", cursive;
- font-size: 20px;
+.footer-text {
+  font-family: "Caveat", cursive;
+  font-size: 20px;
 }
 
-.incide-img-two{
+.incide-img-two {
   margin-top: -333px;
   margin-left: -466px;
   font-size: 33px;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
-.incide-p{
+.incide-p {
   margin-left: 200px;
   font-size: 22px;
 }
 
-.incide-img-three{
+.incide-img-three {
   margin-top: -300px;
   margin-left: 777px;
   font-size: 24px;
 }
 
-.incide-p-two{
+.incide-p-two {
   margin-left: 877px;
   font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.form-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: deepskyblue;
+}
+
+.color {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+}
+
+.bllue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
