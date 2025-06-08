@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
 .menu {
   display: flex;
   gap: 55px;
@@ -138,11 +141,11 @@
   margin-top: -22px;
 }
 
-.incide-img-title{
+.incide-img-title {
   font-size: 18px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  margin-bottom: -38px;
+  /* margin-bottom: -38px; */
 }
 
 .incide-img {
@@ -251,249 +254,59 @@
   background-color: yellow;
 }
 
-.container-two{
+.container-two {
   display: flex;
- margin-left: 43px;
+  margin-left: 43px;
 }
 
-.three-photo{
-  display:  flex;
+.three-photo {
+  display: flex;
 
 }
 
-.text-and-three-photo{
+.text-and-three-photo {
   padding-top: 200px;
   margin-top: 96px;
 }
 
-.section-zoom{
+.section-zoom {
   display: flex;
 }
 
-.zoom{
+.zoom {
   margin-top: 96px;
   background-color: rgb(128, 10, 175);
   color: white;
 }
 
-.rotate{
+.rotate {
   color: black;
   background-color: yellow;
 }
 
-.section-rotate{
+.section-rotate {
   display: flex;
 }
 
-.up{
+.up {
   position: absolute;
 }
 
-.conteiner-three{
+.conteiner-three {
   margin-left: 32px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.history-title {
+  background-color: rgb(79, 255, 196);
+  font-size: 46px;
+  font-family: "Lexend", sans-serif;
+}
+
+.history-map {
+  display: block;
+  margin: 0 auto;
+}
+
+.two-block{
+  display: flex;
+}
