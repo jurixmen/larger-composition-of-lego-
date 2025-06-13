@@ -142,11 +142,11 @@
 }
 
 .incide-img-title {
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(238, 255, 0);
   position: absolute;
-  margin-left: 146px;
+  margin-left: 128px;
   margin-top: 30px;
 }
 
@@ -332,7 +332,7 @@
 .incide-img-title-two {
   position: absolute;
   color: darkblue;
-  font-size: 22px;
+  font-size: 27px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 192px;
   margin-top: 29px;
