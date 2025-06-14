@@ -39,7 +39,6 @@
 
 .main-text {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  size: 100px;
 }
 
 .vaids-item {
@@ -275,17 +274,21 @@
 
 .section-zoom {
   display: flex;
+  margin-bottom: 53px;
 }
 
 .zoom {
-  margin-top: 96px;
+  height: 332px;
   background-color: rgb(128, 10, 175);
-  color: white;
+  color: gold;
+  padding: 20px;
 }
 
 .rotate {
-  color: black;
+  color: rgb(18, 2, 255);
   background-color: yellow;
+  padding: 20px;
+  margin-top: 1px;
 }
 
 .section-rotate {
@@ -336,4 +339,12 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 192px;
   margin-top: 29px;
+}
+
+.two-photo {
+  margin-left: 48px;
+}
+
+.second-title-zoom {
+  margin-top: 105px;
 }
