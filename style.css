@@ -64,6 +64,7 @@
 .store {
   text-decoration: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .container {
@@ -289,6 +290,7 @@
   background-color: yellow;
   padding: 20px;
   margin-top: 1px;
+  height: 254px;
 }
 
 .section-rotate {
@@ -316,7 +318,7 @@
 
 .two-block {
   display: flex;
-  margin-left: 173px;
+  margin-left: 121px;
 }
 
 .hard-img {
@@ -347,4 +349,43 @@
 
 .second-title-zoom {
   margin-top: 105px;
+}
+
+.img-rotate {
+  height: 295px;
+  margin-top: 1px;
+}
+
+.lego-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Intereting-photo {
+  margin-left: 133px;
+}
+
+.three-phon-two {
+  margin-left: 115px;
+}
+
+.google-store {
+  display: flex;
+  margin-top: -205px;
+  position: absolute;
+  margin-left: 131px;
+}
+
+.build-plan {
+  margin-top: -386px;
+  position: absolute;
+  margin-left: 163px;
+  font-size: 32px;
+}
+
+.build-plan-two {
+  margin-top: -300px;
+  position: absolute;
+  font-size: 18px;
+  margin-left: 131px;
 }
