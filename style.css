@@ -436,27 +436,31 @@
   background-color: white;
 }
 
-.product-price{
+.product-price {
   margin-top: 47px;
 }
 
-.product{
+.product {
   background-color: white;
   width: 250px;
 }
 
-.btn-bag{
-   border-radius: 30px;
-   padding: 16px;
-   border: none;
-   background-color: #f47d20;
+.btn-bag {
+  border-radius: 30px;
+  padding: 16px;
+  border: none;
+  background-color: #f47d20;
 }
 
-.btn-bag:hover{
-cursor: pointer;
-background-color: #be580a;
+.btn-bag:hover {
+  cursor: pointer;
+  background-color: #be580a;
 }
 
-.btn-bag:active{
-background-color:  #8b420a;
+.btn-bag:active {
+  background-color: #8b420a;
+}
+
+.title_of_history{
+  margin-top: 30px;
 }
