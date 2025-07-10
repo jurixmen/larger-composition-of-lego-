@@ -467,7 +467,7 @@
 
 .second_second-title {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
+  font-family: "Roboto", sans-serif;
   margin: 0px;
 }
 
@@ -492,8 +492,25 @@
 }
 
 
+table caption {
+  text-align: left;
+}
 
+table {
+  border-collapse: collapse;
+}
 
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
 
-
-
+.board {
+  background-image: url(/img/919779.png);
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 70px;
+}
