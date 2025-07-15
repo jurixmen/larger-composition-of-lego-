@@ -498,19 +498,39 @@ table caption {
 
 table {
   border-collapse: collapse;
+  width: 999999px;
 }
 
-table th,
 table td {
   padding: 10px;
   border: 1px solid #2a2a2a;
+  width: 100%;
 }
 
 .board {
   background-image: url(/img/919779.png);
   padding: 20px;
   font-family: "Roboto", sans-serif;
-  size: 14px;
-  font-family: "Roboto", sans-serif;
   margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.species_namess {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+  width: 100%;
+  font-weight: 444;
+  font-size: 32px;
+}
+
+.names {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+  width: 999px;
+}
+
+.pieces {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+  width: 100%;
 }
