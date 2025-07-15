@@ -493,12 +493,12 @@
 
 
 table caption {
-  text-align: left;
+  text-align: center;
 }
 
 table {
   border-collapse: collapse;
-  width: 999999px;
+  font-size: 14px;
 }
 
 table td {
@@ -526,11 +526,24 @@ table td {
 .names {
   padding: 10px;
   border: 1px solid #2a2a2a;
-  width: 999px;
+  font-size: 23px;
 }
 
 .pieces {
   padding: 10px;
   border: 1px solid #2a2a2a;
-  width: 100%;
+  font-size: 23px;
+}
+
+.high_board{
+  font-size: 22px;
+}
+
+.second_high_board{
+  font-size: 22px;
+}
+
+.title{
+  font-size: 28px;
+  color: rgb(51, 50, 50);
 }
