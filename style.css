@@ -305,10 +305,6 @@
   position: absolute;
 }
 
-.conteiner-three {
-  margin-left: 32px;
-}
-
 .history-title {
   background-color: rgb(80, 248, 189);
   font-size: 46px;
@@ -509,10 +505,14 @@ table td {
 
 .board {
   background-image: url(/img/919779.png);
-  padding: 20px;
+  padding: 10px 20px 30px 20px;
   font-family: "Roboto", sans-serif;
-  margin-left: 70px;
-  margin-bottom: 50px;
+  margin: 70px 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-style: solid;
 }
 
 .species_namess {
@@ -547,3 +547,5 @@ table td {
   font-size: 28px;
   color: rgb(51, 50, 50);
 }
+
+
