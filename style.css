@@ -547,3 +547,23 @@ table td {
   font-size: 28px;
   color: rgb(51, 50, 50);
 }
+
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+table caption {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
