@@ -10,6 +10,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
 
 .menu {
   display: flex;
@@ -17,6 +23,7 @@
   list-style: none;
   margin: 0 auto;
   width: 777px;
+  justify-content: space-between;
 }
 
 .menu-link {
@@ -368,6 +375,7 @@
 
 .Intereting-photo {
   margin-left: 133px;
+  display: flex;
 }
 
 .three-phon-two {
@@ -572,17 +580,34 @@ table td {
 .chack_one {
   position: absolute;
   margin-left: 414px;
+  background-color: rgb(255, 230, 0);
+  font-family: "Bitcount Prop Single", system-ui;
+  border-radius: 20px;
 }
 
 .chack_two {
   position: absolute;
   margin-left: 761px;
+  background-color: rgb(0, 180, 0);
+  border-radius: 20px;
+  font-family: "Palette Mosaic", system-ui;
+  font-size: 13px;
+  cursor: pointer;
 }
 
-.chack_three{
-  margin-left: 570px;
+.chack_three {
+  margin-left: 600px;
+  background-color: red;
+  border-radius: 20px;
+  font-family: "Tangerine", cursive;
+  font-size: 17px;
 }
 
-.tabs{
-font-family: "Winky Rough", sans-serif;
+.tabs {
+  font-family: "Winky Rough", sans-serif;
+}
+
+.i-photo{
+  margin-left: -194px;
+  padding: 20px;
 }
